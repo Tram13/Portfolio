@@ -1,7 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import arno from "../../images/homepage/cut.png"
-import {Link} from "react-router-dom";
 import Table from "react-bootstrap/Table";
 
 class AboutCard extends React.Component {
