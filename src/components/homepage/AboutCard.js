@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import arno from "../../images/homepage/arno.png"
+import arno from "../../images/homepage/cut.png"
 import {Link} from "react-router-dom";
 import Table from "react-bootstrap/Table";
 
@@ -25,9 +25,12 @@ class AboutCard extends React.Component {
                             <td/>
                             <td/>
                             <td/>
-                            <td><Link className="btn btn-secondary" to="/download/cv_vermotearno.pdf" target="_blank"
-                                      download>Curriculum
-                                Vitae</Link></td>
+                            <td/>
+                            <td/>
+                            <td/>
+                            <td><a className="btn btn-secondary" rel="noopener noreferrer"
+                                   href="mailto:arno.vermote@hotmail.com"
+                                   target="_blank">E-mail</a></td>
                         </tr>
                         </tbody>
                     </Table>
