@@ -11,7 +11,6 @@ class Competitions extends React.Component {
     }
 
     componentDidMount() {
-        console.log('hi');
         this.updateWidth();
         window.addEventListener('resize', this.updateWidth);
     }
