@@ -10,7 +10,7 @@ class CompetitionsCard extends React.Component {
                     <Card.Body>
                         <Card.Title>Competitions</Card.Title>
                         <Card.Text>
-                            See how I've improved over the years.<br/>(Spoiler: it didn't start great)
+                            See how I've improved over the years.<br/><i>Spoiler: it didn't start great.</i>
                         </Card.Text>
                     </Card.Body>
                 </Card>

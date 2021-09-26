@@ -4,11 +4,41 @@ import graph from "../images/competitions/graph.png"
 import Padding from "../components/Padding";
 
 class Competitions extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {cardWidth: window.innerWidth};
+    }
+
+    componentDidMount() {
+        console.log('hi');
+        this.updateWidth();
+        window.addEventListener('resize', this.updateWidth);
+    }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWidth);
+    }
+
+    updateWidth = () => {
+        this.setState({cardWidth: this.getWidth()});
+    }
+
+    getWidth = () => {
+        if (window.innerWidth < 800) {
+            return "22rem";
+        } else if (window.innerWidth < 1300) {
+            return "35rem";
+        } else {
+            return "50rem";
+        }
+    }
+
     render() {
         return (
             <div className="content">
                 <Padding/>
-                <Card style={{width: "22rem", borderRadius: '20px'}}>
+                <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                     <Card.Body>
                         <Card.Title>Competitions</Card.Title>
                         <Card.Text>
