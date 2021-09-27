@@ -2,6 +2,9 @@
 
 /.idea
 
+build
+package-lock.json
+
 # dependencies
 /node_modules
 /.pnp
