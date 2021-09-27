@@ -1,4 +1,5 @@
 import React from "react";
+
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
@@ -7,7 +8,7 @@ import {NavLink} from "react-router-dom";
 class NavBar extends React.Component {
     render() {
         return (
-            <Navbar className="navbar">
+            <Navbar style={{backgroundColor: '#fbfbfb', opacity: '70%' }}>
                 <Container>
                     <Navbar.Brand as={NavLink} exact activeClassName="navlink-selected" className="navbar-brand" to="/">Arno
                         Vermote</Navbar.Brand>

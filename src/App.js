@@ -1,6 +1,7 @@
 import React from "react";
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Router from "./components/Router";
+import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class App extends React.Component {
     render() {

@@ -13,11 +13,6 @@ body {
     flex-direction: column;
 }
 
-.navbar {
-    background-color: #fbfbfb;
-    opacity: 75%;
-}
-
 .card-button {
     color: inherit;
     text-decoration: inherit;
