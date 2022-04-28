@@ -31,3 +31,8 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.gap {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
