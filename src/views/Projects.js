@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Padding from "../components/Padding";
 
 class Projects extends React.Component {
 
@@ -36,7 +35,6 @@ class Projects extends React.Component {
     render() {
         return (
             <div className="content">
-                <Padding/>
                 <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                     <Card.Body>
                         <a href="https://github.com/Tram13/ProjectSEL2" className="card-button"
@@ -111,7 +109,6 @@ class Projects extends React.Component {
                         </Card.Body>
                     </Card>
                 </a>
-                <Padding/>
             </div>
         )
     }

@@ -8,7 +8,7 @@ import {NavLink} from "react-router-dom";
 class NavBar extends React.Component {
     render() {
         return (
-            <Navbar style={{backgroundColor: '#fbfbfb', opacity: '70%' }}>
+            <Navbar style={{backgroundColor: '#fbfbfb', opacity: '70%'}}>
                 <Container>
                     <Navbar.Brand as={NavLink} exact activeClassName="navlink-selected" className="navbar-brand" to="/">Arno
                         Vermote</Navbar.Brand>
