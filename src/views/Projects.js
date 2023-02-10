@@ -71,25 +71,11 @@ class Projects extends React.Component {
                    target="_blank">
                     <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                         <Card.Body>
-                            <Card.Title>Recommender System (2020)</Card.Title>
+                            <Card.Title>NLP Recommender System (2020)</Card.Title>
                             <Card.Text>
                                 A Python program which takes an input court case and returns a top 10 of other related
-                                cases.
-                                We improved an existing recommender system by implementing Word2Vec and BERT.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </a>
-                <br/>
-                <a href="https://github.com/Tram13/ProjectSEL1" className="card-button" rel="noopener noreferrer"
-                   target="_blank">
-                    <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
-                        <Card.Body>
-                            <Card.Title>Android Application (2020)</Card.Title>
-                            <Card.Text>
-                                MyDigiPill is an Android app written in Kotlin that reminds users to take their
-                                medication in a timely
-                                manner.
+                                cases, based on unstructured legal documents.
+                                We improved an existing recommender system by implementing Word2Vec and BERT techniques.
                             </Card.Text>
                         </Card.Body>
                     </Card>
