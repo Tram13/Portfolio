@@ -33,22 +33,24 @@ class Projects extends React.Component {
 
 
     render() {
-        return (
-            <div className="content">
+        return (<div className="content">
                 <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                     <Card.Body>
                         <a href="https://github.com/Tram13/ProjectSEL2" className="card-button"
                            rel="noopener noreferrer" target="_blank">
                             <Card.Title>Project Bachelor's Degree (2021)</Card.Title>
                             <Card.Text>
-                                My biggest project to date. This project aims to simulate a software development
+                                Not counting my internship, this is my biggest project to date. This project aims to
+                                simulate a software development
                                 company. Coding, planning and communication are all aspects of the project.<br/>The
                                 assignment was to create a web application for the Flemish Government in which users
                                 could register and apply for services offered by the government.
                             </Card.Text>
                         </a>
                         <br/>
-                        <a className="btn btn-secondary" rel="noopener noreferrer" href="https://informatica.ugent.be/bachelor/SEL2.html" target="_blank">Extra info: Ghent University</a>
+                        <a className="btn btn-secondary" rel="noopener noreferrer"
+                           href="https://informatica.ugent.be/bachelor/SEL2.html" target="_blank">Extra info: Ghent
+                            University</a>
                     </Card.Body>
                 </Card>
                 <br/>
@@ -95,8 +97,7 @@ class Projects extends React.Component {
                         </Card.Body>
                     </Card>
                 </a>
-            </div>
-        )
+            </div>)
     }
 }
 
