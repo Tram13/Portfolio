@@ -11,7 +11,7 @@ class AboutCard extends React.Component {
                     <Card.Title>About Me</Card.Title>
                     <Card.Text>
                         I am a Computer Science student at Ghent University. I got my Bachelor's degree in 2021 and now
-                        I'm working hard to get my Master's in 2023.
+                        I'm expecting to get my Master's degree in 2023.
                         <br/>
                     </Card.Text>
                     <Table responsive="sm" borderless="true">

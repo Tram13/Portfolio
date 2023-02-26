@@ -10,7 +10,7 @@ class ProjectsCard extends React.Component {
                     <Card.Body>
                         <Card.Title>Projects</Card.Title>
                         <Card.Text>
-                            Check out my projects to find out what I've been doing for the past 3 years!
+                            Check out my projects to find out some of the things I've worked on!
                         </Card.Text>
                     </Card.Body>
                 </Card>
