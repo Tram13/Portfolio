@@ -15,21 +15,23 @@ class Router extends React.Component {
             <BrowserRouter>
                 <div>
                     <NavBar/>
-                    <Switch>
-                        <Route exact path="/projects">
-                            <Projects/>
-                        </Route>
-                        <Route exact path="/competitions">
-                            <Competitions/>
-                        </Route>
-                        <Route exact path="/">
-                            <Homepage/>
-                        </Route>
-                        {/* All incorrect URLs get redirected */}
-                        <Route path="/">
-                            <Redirect to="/"/>
-                        </Route>
-                    </Switch>
+                    <div className="gap">
+                        <Switch className="test">
+                            <Route exact path="/projects">
+                                <Projects/>
+                            </Route>
+                            <Route exact path="/competitions">
+                                <Competitions/>
+                            </Route>
+                            <Route exact path="/">
+                                <Homepage/>
+                            </Route>
+                            {/* All incorrect URLs get redirected */}
+                            <Route path="/">
+                                <Redirect to="/"/>
+                            </Route>
+                        </Switch>
+                    </div>
                 </div>
             </BrowserRouter>
         )

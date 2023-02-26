@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import Padding from "../components/Padding";
 
 class Projects extends React.Component {
 
@@ -34,23 +33,24 @@ class Projects extends React.Component {
 
 
     render() {
-        return (
-            <div className="content">
-                <Padding/>
+        return (<div className="content">
                 <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                     <Card.Body>
                         <a href="https://github.com/Tram13/ProjectSEL2" className="card-button"
                            rel="noopener noreferrer" target="_blank">
                             <Card.Title>Project Bachelor's Degree (2021)</Card.Title>
                             <Card.Text>
-                                My biggest project to date. This project aims to simulate a software development
+                                Not counting my internship, this is my biggest project to date. This project aims to
+                                simulate a software development
                                 company. Coding, planning and communication are all aspects of the project.<br/>The
                                 assignment was to create a web application for the Flemish Government in which users
                                 could register and apply for services offered by the government.
                             </Card.Text>
                         </a>
                         <br/>
-                        <a className="btn btn-secondary" rel="noopener noreferrer" href="https://informatica.ugent.be/bachelor/SEL2.html" target="_blank">Extra info: Ghent University</a>
+                        <a className="btn btn-secondary" rel="noopener noreferrer"
+                           href="https://informatica.ugent.be/bachelor/SEL2.html" target="_blank">Extra info: Ghent
+                            University</a>
                     </Card.Body>
                 </Card>
                 <br/>
@@ -73,25 +73,11 @@ class Projects extends React.Component {
                    target="_blank">
                     <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                         <Card.Body>
-                            <Card.Title>Recommender System (2020)</Card.Title>
+                            <Card.Title>NLP Recommender System (2020)</Card.Title>
                             <Card.Text>
                                 A Python program which takes an input court case and returns a top 10 of other related
-                                cases.
-                                We improved an existing recommender system by implementing Word2Vec and BERT.
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </a>
-                <br/>
-                <a href="https://github.com/Tram13/ProjectSEL1" className="card-button" rel="noopener noreferrer"
-                   target="_blank">
-                    <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
-                        <Card.Body>
-                            <Card.Title>Android Application (2020)</Card.Title>
-                            <Card.Text>
-                                MyDigiPill is an Android app written in Kotlin that reminds users to take their
-                                medication in a timely
-                                manner.
+                                cases, based on unstructured legal documents.
+                                We improved an existing recommender system by implementing Word2Vec and BERT techniques.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -111,9 +97,7 @@ class Projects extends React.Component {
                         </Card.Body>
                     </Card>
                 </a>
-                <Padding/>
-            </div>
-        )
+            </div>)
     }
 }
 

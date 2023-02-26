@@ -3,7 +3,6 @@ import Table from "react-bootstrap/Table"
 import ProjectsCard from "../components/homepage/ProjectsCard";
 import CompetitionsCard from "../components/homepage/CompetitionsCard";
 import AboutCard from "../components/homepage/AboutCard";
-import Padding from "../components/Padding";
 
 class Homepage extends React.Component {
 
@@ -31,7 +30,6 @@ class Homepage extends React.Component {
         if (this.state.width >= 1280) // Desktop view
             cards =
                 <div className="content">
-                    <Padding/>
                     <Table responsive="sm" borderless="true">
                         <tbody>
                         <tr>
@@ -45,7 +43,6 @@ class Homepage extends React.Component {
         else { // Mobile view
             cards =
                 <div className="content">
-                    <Padding/>
                     <AboutCard/>
                     <br/>
                     <ProjectsCard/>
