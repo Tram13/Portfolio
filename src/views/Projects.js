@@ -34,6 +34,22 @@ class Projects extends React.Component {
 
     render() {
         return (<div className="content">
+                <a href="https://github.com/Tram13/masterthesis" className="card-button" rel="noopener noreferrer"
+                   target="_blank">
+                    <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
+                        <Card.Body>
+                            <Card.Title>Master's Thesis (2023)</Card.Title>
+                            <Card.Text>
+                                My Master's thesis "Design of a machine learning algorithm for restaurant
+                                recommendations based on labeled and textual data", in collaboration with Arnoud De
+                                Jonge. It describes an implementation of a recommender system based on both textual and
+                                labeled data. Benchmarks show that it outperforms state of the art implementations that
+                                utilize only one data source.
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </a>
+                <br/>
                 <Card style={{width: this.state.cardWidth, borderRadius: '20px'}}>
                     <Card.Body>
                         <a href="https://github.com/Tram13/ProjectSEL2" className="card-button"
